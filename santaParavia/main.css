@@ -1,0 +1,111 @@
+body {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.gameContainer {
+    font-family: 'Cutive Mono', cursive;
+    color:cadetblue;
+    background-color: black;
+    border-style: solid;
+    border-width: 5px;
+    border-color:cadetblue;
+    width:800px;
+    height:650px;
+    text-align: center;
+    font-size: 150%;
+}
+
+.name {
+    font-family: Satisfy, cursive;
+    font-size: 200%;
+}
+
+.weatherHarvest {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.statsContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px;
+    text-align: center;
+    justify-content: space-around;
+    border-width: 3px;
+    border-color: cadetblue;
+    border-style: solid;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+.grainReserve {
+    border-width: 2px;
+    border-color: cadetblue;
+    border-style: hidden solid;
+}
+
+.grainDemand {
+    border-width: 2px;
+    border-color: cadetblue;
+    border-style: hidden solid;
+}
+
+.grainPrice {
+    border-width: 2px;
+    border-color: cadetblue;
+    border-style: hidden solid;
+}
+
+.landPrice {
+    border-width: 2px;
+    border-color: cadetblue;
+    border-style: hidden solid;
+}
+
+.treasury {
+    border-width: 2px;
+    border-color: cadetblue;
+    border-style: hidden solid;
+}
+
+.options {
+    display:flex;
+    justify-content: space-evenly;
+    background-color: black;
+}
+
+.instructions {
+    color: darkmagenta;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: 800;
+}
+
+.one {
+    border-width: 2px;
+    border-color: cadetblue;
+    border-style: solid; 
+    width: 50px;  
+}
+
+.two {
+    border-width: 2px;
+    border-color: cadetblue;
+    border-style: solid;
+    width: 50px;
+}
+
+.images {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: white;
+}
