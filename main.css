@@ -22,6 +22,15 @@ body {
     font-size: 200%;
 }
 
+.yearReview {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    width: 500px;
+    margin-left: 19%;
+}
+
 .weatherHarvest {
     display: flex;
     text-align: center;
@@ -91,6 +100,7 @@ body {
     border-color: cadetblue;
     border-style: solid; 
     width: 50px;  
+    color: cadetblue;
 }
 
 .two {
@@ -98,6 +108,7 @@ body {
     border-color: cadetblue;
     border-style: solid;
     width: 50px;
+    color: cadetblue;
 }
 
 .images {

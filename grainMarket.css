@@ -45,8 +45,9 @@ body {
 .options {
     display: flex;
     justify-content: space-between;
-    
+    color:cadetblue;
     margin-right: 100px;
     margin-left: 20px;
+
     
 }

@@ -15,10 +15,15 @@
 <body>
     
     <div class="gameContainer">
+        <div id="year">Year</div>
 
         <div class="name">Lady Nicole of Santa Paravia</div>
 
-        <div class="yearReview1">Rats ate 15% of your grain reserves!</div>
+        <div class="yearReview">
+            <div class="yearReview1.1">Rats ate </div>
+            <div class="yearReview1.2">15% </div>
+            <div class="yearReview1.3"> your grain reserves!</div>
+        </div>
 
         <div class="weatherHarvest">
             <div class="yearReview2">Good Weather</div>
@@ -41,22 +46,22 @@
 
         <br>
 
-        <div class="instructions">PRESS ZERO TO CONTINUE OR NUMBER OF TRANSACTION IF YOUR WISH TO BUY OR SELL</div>
+        <div class="instructions">PRESS AN IMAGE TO CONTINUE OR NUMBER OF TRANSACTION IF YOUR WISH TO BUY OR SELL</div>
 
         <br>
 
         <div class="options">
-            <div class="one">1</div>
-            <div class="two">2</div>
+            <a href="grainMarket.html" class="one">1</a>
+            <a href="landMarket.html" class="two">2</a>
         </div>
 
         <div class="images">
-            <img src="images/grainImg.png" width="200">
-            <img src="images/landImg.png" width="200">
+            <a href="grainMarket.html" target="_self"><img src="images/grainImg.png" width="200"></a>
+            <a href="landMarket.html" target="_self"><img src="images/landImg.png" width="200"></a>
         </div>
 
     </div>
 
-
+    <script src="santaParavia.js"></script>
 </body>
 </html>
